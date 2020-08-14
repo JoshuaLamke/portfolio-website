@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: teal;
+}
+#header-container{
+    display: flex;
+    flex-direction: column;
+}
+#navbar-container{
+    padding-bottom: 5vh;
+    background: #0E0B16;
+}
+#navbar{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#links{
+    display: flex;
+    list-style-type: none;
+}
+#brand{
+    padding-left: 5vw;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#contact-me{
+    align-self: center;
+}
+#contact-info{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#picture-container{
+    display: flex;
+    justify-content: center;
+}
+#selfie{
+    max-width: 50%;
+    height: auto;
+}
+.home-link:link, .home-link:visited{
+    text-decoration: none;
+    background-color: #A239CA;
+    border-bottom: 1px solid purple;
+    padding: 16px 20px;
+    color: #0E0B16;
+    text-align: center;
+}
+.home-link:hover, .home-link:active{
+    background-color: purple;
+}
+.about-link:link, .about-link:visited{
+    text-decoration: none;
+    background-color: #A239CA;
+    border-bottom: 1px solid purple;
+    padding: 16px 20px;
+    color: #0E0B16;
+    text-align: center;
+}
+.about-link:hover, .about-link:active{
+    background-color: purple;
+}
+.projects-link:link, .projects-link:visited{
+    text-decoration: none;
+    background-color: #A239CA;
+    border-bottom: 1px solid purple;
+    padding: 16px 20px;
+    color: #0E0B16;
+    text-align: center;
+}
+.projects-link:hover, .projects-link:active{
+    background-color: purple;
+}
