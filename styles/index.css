@@ -41,6 +41,7 @@ body{
 }
 #selfie{
     max-width: 50%;
+    height: 66%;
 }
 .home-link:link, .home-link:visited{
     text-decoration: none;
@@ -81,3 +82,4 @@ body{
         height: 66%;
     }
 }
+
