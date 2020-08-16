@@ -1,6 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: teal;
+    display: flex;
+    flex-direction: column;
 }
 #header-container{
     display: flex;
@@ -37,11 +39,14 @@ body{
 }
 #picture-container{
     display: flex;
+    align-self: center;
     justify-content: center;
+    max-width: 480px;
+    max-height: 640px;
 }
 #selfie{
-    max-width: 50%;
-    height: 66%;
+    max-width: 100%;
+    height: auto;
 }
 .home-link:link, .home-link:visited{
     text-decoration: none;
@@ -77,9 +82,8 @@ body{
     background-color: purple;
 }
 @media only screen and (max-width:480px){
-    #selfie{
-        width: 50%;
-        height: 66%;
+    #picture-container{
+        max-width: 200px;
+        max-height: 270px;
     }
 }
-
