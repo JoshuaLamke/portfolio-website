@@ -75,3 +75,9 @@ body{
 .projects-link:hover, .projects-link:active{
     background-color: purple;
 }
+@media only screen and (max-width:480px){
+    #selfie{
+        width: 50%;
+        height: 66%;
+    }
+}
