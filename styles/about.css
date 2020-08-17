@@ -87,3 +87,8 @@ body{
 .about-header{
     align-self: center;
 }
+@media (max-width:730px){
+    #about-container{
+        flex-direction: column;
+    }
+}
